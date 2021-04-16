@@ -22,8 +22,11 @@ environment:
      - PYTHON: "C:\\Python36-x64"
 
 install:
+  - conda -V
+  - conda info
+ 
   # We need wheel installed to build wheels
-  - "%PYTHON%\\python.exe -m pip install wheel"
+  #- "%PYTHON%\\python.exe -m pip install wheel"
 
 build: off
 
