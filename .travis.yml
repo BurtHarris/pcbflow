@@ -6,6 +6,7 @@ dist: trusty
 branches:
   only:
   - main
+  - win32
 
 matrix:
   include:
